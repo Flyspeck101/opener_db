@@ -562,3 +562,7 @@ document.getElementById('mirror').addEventListener('change',  async (e) => {
   
     return dp[m][n];
   }
+
+(() => {
+  if (!window.location.href.contains("?")) return;
+})();
